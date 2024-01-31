@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Ruby version 3.2.2
 
-Things you may want to cover:
+- Databases: "Article, Comment"
 
-* Ruby version
+launch your server with "rails server"
 
-* System dependencies
+notes by dev:
 
-* Configuration
+current login details locked as admin being the only user with perms, name : admin, pw: admin.
 
-* Database creation
+The current state of this application is very bare, I am unaware how long the job I will be aiming
+for will remain up and will be using this in my application, hopefully before this app is looked at it will be in a more put together state. I hope before it is looked at to include at minimum the following.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-User created accounts
+-Customizable user accounts
+-Filtered searching of blog posts by title
+-Filtered searching of comments by commenter
+-Styling
