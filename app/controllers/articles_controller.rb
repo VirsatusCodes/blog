@@ -46,6 +46,11 @@ class ArticlesController < ApplicationController
       redirect_to root_path, status: :see_other
     end
 
+    def sign_out
+      session.delete(:user_id)
+      redirect_to root_path
+    end
+
     private 
     def article_params
       params.require(:article).permit(:title, :body, :status)
